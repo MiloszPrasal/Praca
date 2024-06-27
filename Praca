@@ -1,0 +1,23 @@
+// Program
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+ int liczba;
+ cout << "Podaj liczbe" << endl;
+ cin >> liczba;
+
+if (liczba % 2 == 0)
+{
+cout << "Twoja liczba jest podzielna przez 2" << endl;
+}
+else 
+{
+cout << "Twoja liczba nie jest podzilena przez 2" << endl;
+}
+ 
+ return 0;
+ 
+}
